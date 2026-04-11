@@ -1,5 +1,4 @@
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
 import { useProducts } from "../hooks/useProducts";
 
@@ -46,7 +45,6 @@ export default function ShopPage() {
   const displayProducts =
     !loading && products.length > 0 ? products : PLACEHOLDER_PRODUCTS;
 
-  const isPlaceholder = !loading && products.length === 0;
 
   return (
     <>
@@ -73,15 +71,6 @@ export default function ShopPage() {
           </p>
         </div>
 
-        {isPlaceholder && (
-          <div className="mb-8 bg-amber/10 border border-amber/20 rounded-xl px-5 py-4 text-sm text-amber/80">
-            Showing placeholder products. Add real inventory in the{" "}
-            <Link to="/admin" className="underline text-amber">
-              Admin panel
-            </Link>
-            .
-          </div>
-        )}
 
         {loading ? (
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">

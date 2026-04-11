@@ -120,24 +120,11 @@ export default function CartPage() {
             </span>
           </div>
 
-          {/* ── Stripe Checkout ──────────────────────────────────────
-              To enable checkout:
-              1. Create a Firebase Cloud Function that generates a Stripe
-                 Checkout Session (see functions/createCheckoutSession.js)
-              2. Replace the placeholder below with a call to that function
-              3. Redirect to session.url
-          ─────────────────────────────────────────────────────────── */}
-          <div className="bg-amber/10 border border-amber/20 rounded-xl px-4 py-4 mb-5 text-sm text-amber/80 text-center">
-            Stripe checkout coming soon — wire up your{" "}
-            <code className="text-amber">createCheckoutSession</code> Cloud
-            Function to activate.
-          </div>
-
           <button
             disabled
             className="w-full bg-amber/40 text-forest-dark/60 font-semibold py-4 rounded-xl cursor-not-allowed mb-3"
           >
-            Checkout
+            Checkout Coming Soon
           </button>
 
           <button

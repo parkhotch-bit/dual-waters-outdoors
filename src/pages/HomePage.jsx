@@ -205,13 +205,7 @@ export default function HomePage() {
               </div>
             ) : posts.length === 0 ? (
               <div className="bg-forest-card border border-dashed border-moss/15 rounded-xl py-16 text-center">
-                <p className="text-slate text-sm">
-                  No posts yet — add your first one in the{" "}
-                  <Link to="/admin" className="text-amber hover:underline">
-                    Admin panel
-                  </Link>
-                  .
-                </p>
+                <p className="text-slate text-sm">Posts coming soon.</p>
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
