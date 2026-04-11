@@ -132,7 +132,9 @@ export default function Footer() {
           <p className="text-slate text-xs">
             &copy; {new Date().getFullYear()} Dual Waters Outdoors. All rights reserved.
           </p>
-          <p className="text-slate text-xs">Built for the water.</p>
+          <Link to="/auth" className="text-slate/30 hover:text-slate text-xs transition-colors">
+            Admin
+          </Link>
         </div>
       </div>
     </footer>

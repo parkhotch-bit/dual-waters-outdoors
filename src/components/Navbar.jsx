@@ -109,24 +109,14 @@ export default function Navbar() {
               )}
             </Link>
 
-            {/* Admin link — visible to any logged-in user (personal site) */}
             {user && (
-              <Link
-                to="/admin"
-                className="text-xs text-moss hover:text-moss-light border border-moss/40 px-3 py-1 rounded-full transition-colors"
-              >
-                Admin
-              </Link>
-            )}
-
-            {user ? (
               <button
                 onClick={handleLogOut}
                 className="text-xs text-slate hover:text-red-400 transition-colors"
               >
                 Sign Out
               </button>
-            ) : null}
+            )}
           </div>
 
           {/* Mobile: cart + menu */}
@@ -174,15 +164,6 @@ export default function Navbar() {
           >
             About
           </Link>
-          {user && (
-            <Link
-              to="/admin"
-              onClick={() => setMenuOpen(false)}
-              className="block text-moss py-1 text-sm font-medium"
-            >
-              Admin
-            </Link>
-          )}
           <div className="flex items-center gap-5 pt-2 border-t border-moss/20">
             <a
               href="https://youtube.com/@Dual_Waters"
