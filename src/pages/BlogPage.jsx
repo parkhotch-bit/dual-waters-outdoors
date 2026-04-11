@@ -35,8 +35,8 @@ export default function BlogPage() {
             The Blog
           </h1>
           <p className="text-slate max-w-xl leading-relaxed">
-            Trip reports from the water, honest gear reviews, and a look at the
-            business side of the outdoor industry.
+            Trip reports straight from the water, honest gear reviews, practical
+            tips and tactics, plus insights and commentary on the market.
           </p>
         </div>
 

@@ -87,26 +87,18 @@ export default function AboutPage() {
               you cover on the channel, and why you started it.
             */}
             <p className="text-lg text-offwhite leading-relaxed">
-              Dual Waters Outdoors is a YouTube channel and blog covering the
-              full spectrum of fishing — from mountain trout streams to open
-              saltwater flats.
+              Dual Waters Outdoors is an outdoor media brand built for the
+              outdoorsman who balances the call of the wild with corporate
+              responsibility.
             </p>
             <p className="text-slate leading-relaxed">
-              The name comes from a simple idea: two different worlds, one
-              obsession. Freshwater and salt. Fly rod and spinning gear. Remote
-              wilderness and accessible public water. Both deserve honest
-              coverage.
+              As a working professional, taking on the outdoors is challenging.
+              There's spots to scout, gear to buy, knowledge to gain, and Monday
+              morning always comes back around fast. Balancing both worlds is a
+              real challenge, and nobody talks about it enough.
             </p>
             <p className="text-slate leading-relaxed">
-              Alongside the fishing content, I cover the outdoor economy — the
-              guides, gear brands, conservation fights, and business decisions
-              that shape where and how we fish. It's a side of the industry that
-              rarely gets talked about plainly.
-            </p>
-            <p className="text-slate leading-relaxed">
-              If you're here for trip reports, gear takes you can actually trust,
-              or a behind-the-scenes look at the outdoor industry — you're in the
-              right place.
+              If that sounds like you, you're a true Dualie.
             </p>
 
             {/* CTA row */}
