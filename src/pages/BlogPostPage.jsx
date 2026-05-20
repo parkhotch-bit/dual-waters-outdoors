@@ -5,10 +5,9 @@ import { ArrowLeft } from "lucide-react";
 import { usePost } from "../hooks/usePosts";
 
 const CATEGORY_LABELS = {
-  "trip-report": "Trip Report",
-  gear: "Gear",
-  economy: "Economy",
-  tips: "Tips & Tactics",
+  outdoors: "Outdoors",
+  personal: "Personal",
+  other: "Other",
 };
 
 export default function BlogPostPage() {

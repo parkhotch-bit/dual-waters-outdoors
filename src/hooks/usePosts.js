@@ -20,7 +20,7 @@ import { db } from "../firebaseConfig";
 //   slug: string,          // URL-safe unique identifier, e.g. "may-trip-report-snake-river"
 //   excerpt: string,       // 1-2 sentence summary shown on cards
 //   body: string,          // Markdown content
-//   category: string,      // "trip-report" | "gear" | "economy" | "tips"
+//   category: string,      // "outdoors" | "personal" | "other"
 //   tags: string[],        // e.g. ["trout", "wyoming", "fly-fishing"]
 //   featuredImage: string, // Image URL
 //   publishedAt: Timestamp,

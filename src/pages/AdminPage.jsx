@@ -22,7 +22,7 @@ const BLANK_POST = {
   slug: "",
   excerpt: "",
   body: "",
-  category: "trip-report",
+  category: "outdoors",
   tags: "",
   featuredImage: "",
 };
@@ -95,10 +95,9 @@ function PostForm({ initial, onSave, onCancel }) {
             onChange={(e) => set("category", e.target.value)}
             className={inputCls}
           >
-            <option value="trip-report">Trip Report</option>
-            <option value="gear">Gear</option>
-            <option value="economy">Economy</option>
-            <option value="tips">Tips & Tactics</option>
+            <option value="outdoors">Outdoors</option>
+            <option value="personal">Personal</option>
+            <option value="other">Other</option>
           </select>
         </Field>
         <Field label="Tags (comma-separated)">

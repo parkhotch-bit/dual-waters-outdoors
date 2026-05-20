@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(*)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(dir *)",
+      "PowerShell(Get-Content *)"
+    ],
+    "deny": []
+  }
+}

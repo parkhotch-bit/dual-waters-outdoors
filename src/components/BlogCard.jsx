@@ -1,17 +1,15 @@
 import { Link } from "react-router-dom";
 
 const CATEGORY_LABELS = {
-  "trip-report": "Trip Report",
-  gear: "Gear",
-  economy: "Economy",
-  tips: "Tips & Tactics",
+  outdoors: "Outdoors",
+  personal: "Personal",
+  other: "Other",
 };
 
 const CATEGORY_COLORS = {
-  "trip-report": "bg-moss/20 text-moss-light",
-  gear: "bg-earth/20 text-earth-light",
-  economy: "bg-amber/20 text-amber",
-  tips: "bg-slate/20 text-slate",
+  outdoors: "bg-moss/20 text-moss-light",
+  personal: "bg-amber/20 text-amber",
+  other: "bg-slate/20 text-slate",
 };
 
 export default function BlogCard({ post }) {

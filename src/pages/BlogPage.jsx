@@ -5,10 +5,9 @@ import { usePosts } from "../hooks/usePosts";
 
 const CATEGORIES = [
   { value: null, label: "All" },
-  { value: "trip-report", label: "Trip Reports" },
-  { value: "gear", label: "Gear" },
-  { value: "economy", label: "Economy" },
-  { value: "tips", label: "Tips & Tactics" },
+  { value: "outdoors", label: "Outdoors" },
+  { value: "personal", label: "Personal" },
+  { value: "other", label: "Other" },
 ];
 
 export default function BlogPage() {
